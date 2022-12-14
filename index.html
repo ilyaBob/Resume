@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style/reset.css">
+   <link rel="stylesheet" href="./style/style.css">
+   <link rel="shortcut icon" href="./image/icon/fa.svg" type="image/x-icon">
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+   </style>
+   <title>Portfolio</title>
+   <script src="./js/jquery.js" defer></script>
+   <script src="./js/mixitup.min.js" defer></script>
+   <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <div class="inner-wrapper">
+            <header class="header">
+               <div class="header__burher"><img src="./image/icon/menu.svg" alt="menu-burger"></div>
+               <div class="header__photo-box">
+                  <img src="./image/photo.jpg" alt="photo" class="header__photo" width="165px" height="165px">
+               </div>
+               <div class="header__name">
+                  <h1 class="header__h1">Илья Бобренёв</h1>
+                  <span class="header__post">Frontend developer</span>
+               </div>
+               <ul class="header__social-icon">
+                  <li class="header__social-item"><a target="_blank" href="https://github.com/ilyaBob"
+                        class="header__social-url"><img src="./image/icon/gh.svg" alt="github"></a></li>
+                  <li class="header__social-item"><a target="_blank" href="https://vk.com/bobruni"
+                        class="header__social-url"><img src="./image/icon/vk.svg" alt="vk"></a></li>
+                  <li class="header__social-item"><a target="_blank" href="https://t.me/ilya_bob22"
+                        class="header__social-url"><img src="./image/icon/tg.svg" alt="tg"></a></li>
+               </ul>
+               <nav class="header__nav">
+                  <ul class="header__nav-menu">
+                     <li class="header__nav-item"><a href=".about-me" class="header__nav-url">Обо мне</a></li>
+                     <li class="header__nav-item"><a href=".expereince" class="header__nav-url">Опыт</a></li>
+                     <li class="header__nav-item"><a href=".education" class="header__nav-url">Образование</a></li>
+                     <li class="header__nav-item"><a href=".portholio" class="header__nav-url">Работы</a></li>
+                  </ul>
+               </nav>
+               <div class="copyright">
+                  <span>© Copyright 2022 Portfolio</span>
+               </div>
+            </header>
+            <main class="main">
+               <div class="download_file">
+                  <a href="./file/Илья Бобренёв Front Резюме.pdf" download="Илья Бобренёв Front Резюме"> Скачать PDF</a>
+               </div>
+               <section class="about-me">
+                  <h2 class="title">Обо мне</h2>
+
+                  <p class="about-me__text">Привет, меня зовут Илья. Я начинающий веб-разработчик, хочу развиваться в
+                     направлении foront-end. Имею опыт работы с <strong> Javascript, PHP, SQL, Wordpress</strong>. Есть
+                     опыт работы на площадке <a style='color: #5655da'
+                        href="https://kwork.ru/user/ilya_bob">"Kwork"</a>. <Strong>Готов выполнить тестовое</Strong>.
+                     <br>
+                     Профиль на Codewars: <a style='color: #5655da' href="https://www.codewars.com/users/Weeskas">Codewars</a>.<br>
+                     Люблю слушать аудиокниги. Вредных привычек не имею.
+                  </p>
+
+                  <div class="about-me__contacts">
+                     <ul class="about-me__contacts-menu">
+                        <li class="about-me__contacts-item"> <strong>День рожденье:</strong> 11 ноября, 2000г</li>
+                        <li class="about-me__contacts-item"> <strong>Местоположение:</strong> Россия, Алтайский край
+                        </li>
+                        <li class="about-me__contacts-item"> <strong>Email:</strong> <a
+                              href="mailto:bobrenev228@inbox.ru">bobrenev228@inbox.ru</a></li>
+                        <li class="about-me__contacts-item"> <strong>Phone:</strong><a href="tel:+79087275795"> +7 (908)
+                              727-57-95</a></li>
+                     </ul>
+                  </div>
+                  <div class="about-me__skills">
+                     <div class="about-me__skills-item">
+                        <div class="about-me__skills-item-top">
+                           <h3 class="about-me__skills-item-title">HTML</h3>
+                           <div class="about-me__skills-item-percent">90%</div>
+                        </div>
+                        <div class="about-me__skills-item-line">
+                           <div class="about-me__skills-item-line-full" style="width: 90%;"></div>
+                        </div>
+                     </div>
+                     <div class="about-me__skills-item">
+                        <div class="about-me__skills-item-top">
+                           <h3 class="about-me__skills-item-title">CSS</h3>
+                           <div class="about-me__skills-item-percent">80%</div>
+                        </div>
+                        <div class="about-me__skills-item-line">
+                           <div class="about-me__skills-item-line-full" style="width: 80%;"></div>
+                        </div>
+                     </div>
+                     <div class="about-me__skills-item">
+                        <div class="about-me__skills-item-top">
+                           <h3 class="about-me__skills-item-title">Javascript</h3>
+                           <div class="about-me__skills-item-percent">50%</div>
+                        </div>
+                        <div class="about-me__skills-item-line">
+                           <div class="about-me__skills-item-line-full" style="width: 50%;"></div>
+                        </div>
+                     </div>
+                     <div class="about-me__skills-item">
+                        <div class="about-me__skills-item-top">
+                           <h3 class="about-me__skills-item-title">PHP</h3>
+                           <div class="about-me__skills-item-percent">30%</div>
+                        </div>
+                        <div class="about-me__skills-item-line">
+                           <div class="about-me__skills-item-line-full" style="width: 30%;"></div>
+                        </div>
+                     </div>
+                     <div class="about-me__skills-item">
+                        <div class="about-me__skills-item-top">
+                           <h3 class="about-me__skills-item-title">SQL</h3>
+                           <div class="about-me__skills-item-percent">30%</div>
+                        </div>
+                        <div class="about-me__skills-item-line">
+                           <div class="about-me__skills-item-line-full" style="width: 30%;"></div>
+                        </div>
+                     </div>
+                     <div class="about-me__skills-item">
+                        <div class="about-me__skills-item-top">
+                           <h3 class="about-me__skills-item-title">Wordpress</h3>
+                           <div class="about-me__skills-item-percent">60%</div>
+                        </div>
+                        <div class="about-me__skills-item-line">
+                           <div class="about-me__skills-item-line-full" style="width: 60%;"></div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="education">
+                  <h2 class="title">Образование</h2>
+                  <article class="education__item">
+                     <h3 class="education__title">Курсы TDoctor</h3>
+                     <span class="education__date">Октябрь | 2022</span>
+                     <p class="education__text">Прошёл бесплатный курс по PHP на канале "TDoctor". Разработал приложение
+                        на PHP</p>
+                  </article>
+                  <article class="education__item">
+                     <h3 class="education__title">SQL</h3>
+                     <span class="education__date">Ноябрь | 2022</span>
+                     <p class="education__text">Прошёл бесплатный курс по SQL на канале "Програмания".
+                     </p>
+                  </article>
+                  <article class="education__item">
+                     <h3 class="education__title">Javascript</h3>
+                     <span class="education__date">Февраль 2022 - Сентябрь 2022</span>
+                     <p class="education__text">Тут должна быть написана куча материалов из которых я изучал JS, но их
+                        слишком много поэтому не буду &#128519 </p>
+                  </article>
+               </section>
+               <section class="expereince">
+                  <h2 class="title">Опыт</h2>
+                  <article class="expereince__item">
+                     <h3 class="expereince__title">Тема для WordPress</h3>
+                     <span class="expereince__date">Личный проект | Ноябрь 2022</span>
+                     <p class="expereince__text">Разработал адаптивную тему для WordPress (Javascript, PHP, SQL). </p>
+                  </article>
+                  <article class="expereince__item">
+                     <h3 class="expereince__title">Программа для скачивания книг</h3>
+                     <span class="expereince__date">Личный проект | Октябрь 2022</span>
+                     <p class="expereince__text">При изучении языка PHP создал программу для скачивания книг.</p>
+                  </article>
+                  <article class="expereince__item">
+                     <h3 class="expereince__title">Фриланс</h3>
+                     <span class="expereince__date">Kwork | Сентябрь 2022 - Октябрь 2022</span>
+                     <p class="expereince__text">Профиль: <a style="color: #5655da;"
+                           href="https://kwork.ru/user/ilya_bob">Frontend developer</a></p>
+                  </article>
+                  <article class="expereince__item">
+                     <h3 class="expereince__title">Контент-менеджер </h3>
+                     <span class="expereince__date">ООО Сити-эксклюзив | Декабрь 2017 - Февраль 2022</span>
+                     <p class="expereince__text">В обязанности входило: Исправление ошибок на сайте (html, css), вёрстка
+                        почтовых шаблонов, добавление/удаление товаров, добавление статей/новостей, seo оптимизация.
+                        Создание/редактирование картинок. </p>
+                  </article>
+               </section>
+               <section class="portholio">
+                  <h2 class="title">Работы</h2>
+
+                  <div class="portholio__panel">
+                     <ul class="portholio__panel-menu controls">
+                        <li class="portholio__panel-item" data-filter=".all-projects">Все Работы</li>
+                        <li class="portholio__panel-item" data-filter=".code">Код</li>
+                        <li class="portholio__panel-item" data-filter=".page-proofs">Вёрстка</li>
+                     </ul>
+                  </div>
+
+                  <div class="portholio__box container">
+                     <div class="portholio__item mix all-projects code">
+                        <div class="portholio__item-title">
+                           <div class="portholio__item-inner">
+                              <h4 class="portholio__item-h4">Тема для WP</h4>
+                              <span class="portholio__item-detail">Подробнее</span>
+                           </div>
+                        </div>
+                        <img class="portholio__item-image" src="./image/code-2.jpg" alt="work1">
+                        <div class="popup">
+                           <div class="popup__close">&#x2716;</div>
+                           <p class="popup__text">
+                              <b>Цель:</b> Закрепить знания PHP, освоить натяжку вёрстки на WP. <br>
+                              <b>Результат:</b> Создал тему на WordPress.
+                           </p>
+                           <div class="popup__url">
+                              <span>Github: <a target="_blank" href="https://github.com/ilyaBob/Knigorai-themes-WP">Тык
+                                    сюда!</a></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portholio__item mix all-projects code">
+                        <div class="portholio__item-title">
+                           <div class="portholio__item-inner">
+                              <h4 class="portholio__item-h4">Скачать книгу</h4>
+                              <span class="portholio__item-detail">Подробрее</span>
+                           </div>
+                        </div>
+                        <img class="portholio__item-image" src="./image/code-1.jpg" alt="Коды">
+                        <div class="popup">
+                           <div class="popup__close">&#x2716;</div>
+                           <p class="popup__text"><b>Проблема:</b> В дальних дорогах не всегда есть интернет. Скачать
+                              необходимые книги не всегда получается.<br>
+                              <b>Цель:</b> Создание программы для скачивания книг без торента(и всякого подобного), по
+                              ссылке на сайте. <br>
+                              <b>Результат:</b> Разработана программа для скачивания книг, по ссылке и выбором глав.
+                           </p>
+                           <div class="popup__url">
+                              <span>Github: <a target="_blank" href="https://github.com/ilyaBob/DownloadBook">Тык
+                                    сюда!</a></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portholio__item mix all-projects page-proofs">
+                        <div class="portholio__item-title">
+                           <div class="portholio__item-inner">
+                              <h4 class="portholio__item-h4">{finsweet</h4>
+                              <span class="portholio__item-detail">Подробнее</span>
+                           </div>
+                        </div>
+                        <img class="portholio__item-image" src="./image/verstka-1.jpg" alt="Вёрстка">
+                        <div class="popup">
+                           <div class="popup__close">&#x2716;</div>
+                           <p class="popup__text"> <b>Цель:</b> Закрепление навыков HTML, CSS, Javascript. Изучение
+                              методологии БЭМ. <br>
+                              <b>Результат:</b> Создание сайта на основе HTML, CSS, Javascript (Jquery).
+                           </p>
+                           <div class="popup__url">
+                              <span>Github: <a target="_blank" href="https://github.com/ilyaBob/Auto">Тык
+                                    сюда!</a></span>
+                              <span>Сайт: <a target="_blank" href="https://ilyabob.github.io/Auto/">Тык сюда!</a></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portholio__item mix all-projects page-proofs">
+                        <div class="portholio__item-title">
+                           <div class="portholio__item-inner">
+                              <h4 class="portholio__item-h4">Реновацио</h4>
+                              <span class="portholio__item-detail">Подробнее</span>
+                           </div>
+                        </div>
+                        <img class="portholio__item-image" src="./image/verstka-2.jpg" alt="Вёрстка">
+                        <div class="popup">
+                           <div class="popup__close">&#x2716;</div>
+                           <p class="popup__text"> <b>Цель:</b> Закрепление навыков HTML, CSS, Javascript. Закрепление
+                              методологии БЭМ. <br>
+                              <b>Результат:</b> Создание сайта на основе HTML, CSS, Javascript (Jquery).
+                           </p>
+                           <div class="popup__url">
+                              <span>Github: <a target="_blank" href="https://github.com/ilyaBob/Med-site">Тык
+                                    сюда!</a></span>
+                              <span>Сайт: <a target="_blank" href="https://ilyabob.github.io/Med-site/">Тык
+                                    сюда!</a></span>
+
+                           </div>
+
+                        </div>
+                     </div>
+
+
+                  </div>
+               </section>
+            </main>
+         </div>
+      </div>
+      <div class="overlay"></div>
+   </div>
+</body>
+
+</html>
